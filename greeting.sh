@@ -22,7 +22,7 @@ fi
 
 if [ $temph -gt 18 -a $temph -le 24 ]
 then
-    mess="Hello $LOGNAME"
+    mess="It is late at night $LOGNAME"
 fi
 
 echo -e "$mess\nThis is $dat"
